@@ -3,7 +3,7 @@
 import { useMemo, useRef, useState } from 'react'
 import { Drawer } from 'vaul'
 import useMeasureLib from 'react-use-measure'
-import { AnimatePresence, motion, number } from 'motion/react'
+import { AnimatePresence, motion } from 'motion/react'
 import { DefaultView, Key, Phrase, RemoveWallet } from '../components/component'
 import { CloseIcon } from '../utils/icons'
 type setIsAnnimationProps = {
